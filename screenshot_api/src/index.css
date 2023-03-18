@@ -4,9 +4,9 @@
   }
 
 :root {
-  background-image:url('assets/windows_background.png');
+  background-image:url('../public/static/windows_background.webp');
   background-size: 35%;
-  background-blend-mode: multiply;
+  background-repeat: repeat;
 
 }
 
@@ -48,17 +48,18 @@ input {
 }
 
 .whole-page {
-  background-color: rgba(37, 67, 110, 0.9);
-  border-radius: 10px;
+  background-color: rgba(37, 110, 76, 0.9);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   font:small-caps;
+  margin: 2em;  
 
 }
 
 .button {
   color: #fff;
-  background-color:black;
-  border: none;
+  background-color:rgb(21, 71, 111);
+  border:#bc5050;
+  border-style: double;
   border-radius: 15px;
   box-shadow: 0 7px rgb(62, 62, 62);
   padding: 1.8em;
@@ -67,7 +68,7 @@ input {
 }
 
 .button:hover {
-  background-color: #1a1a1a;
+  background-color: #bc5050;
   padding: 2em;
 }
 
@@ -82,6 +83,7 @@ input {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 2%;
   border-radius: 8px;
   background-color: #cadcf2;
 }
@@ -96,6 +98,10 @@ input {
   border-radius: 8px;
 }
 
+h1{
+  color: rgb(28, 28, 173);
+  font-size: 3em;
+}
 
 .quota {
   position: absolute;
@@ -104,3 +110,4 @@ input {
   margin: 10px;
   color: white;
 }
+

@@ -157,7 +157,7 @@ function App() {
           )}
 
         {/**Container that displays the query built so far */}
-        <div className="container">
+        <div className="container" id = "query">
         <h3> Current Query Status: </h3>
         <p>
           https://api.apiflash.com/v1/urltoimage?access_key=ACCESS_KEY    
@@ -181,7 +181,9 @@ function App() {
   <div className="container">
     <Gallery images={prevImages} />
       </div>
+      <br></br>
       </div>
+    
     );
   }
 
