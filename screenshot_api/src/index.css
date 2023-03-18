@@ -1,0 +1,106 @@
+#root {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  }
+
+:root {
+  background-image:url('assets/windows_background.png');
+  background-size: 35%;
+  background-blend-mode: multiply;
+
+}
+
+li {
+  list-style: none;
+}
+
+li.form {
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #cadcf2;
+  width: 300px;
+  font:small-caps;
+
+}
+
+input {
+  font-family: 'Poppins';
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+  position: relative;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
+  font:small-caps;
+
+}
+
+.whole-page {
+  background-color: rgba(37, 67, 110, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  font:small-caps;
+
+}
+
+.button {
+  color: #fff;
+  background-color:black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px rgb(62, 62, 62);
+  padding: 1.8em;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #1a1a1a;
+  padding: 2em;
+}
+
+.button:active {
+  background-color: #0b0b0b;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+
+.container {
+  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 8px;
+  background-color: #cadcf2;
+}
+
+.screenshot {
+  max-width: 90%;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.gallery-screenshot {
+  border-radius: 8px;
+}
+
+
+.quota {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+  color: white;
+}
